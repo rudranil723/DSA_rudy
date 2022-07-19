@@ -9,4 +9,4 @@ class Solution:
 
 #solution:
 
-https://leetcode.com/problems/smallest-range-i/discuss/535164/Python-O(n)-by-min-and-Max.-85%2B-w-Visualization
+#https://leetcode.com/problems/smallest-range-i/discuss/535164/Python-O(n)-by-min-and-Max.-85%2B-w-Visualization
