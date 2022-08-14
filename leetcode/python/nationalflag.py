@@ -6,7 +6,7 @@ from turtle import *
 screen = turtle.Screen()
 # Defining a turtle Instance
 t = turtle.Turtle()
-speed(1)
+speed(5)
 
 # initially penup()
 t.penup()
