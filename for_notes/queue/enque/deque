@@ -1,0 +1,34 @@
+enqueue psuedo code
+
+if (f=0) then
+    f=0
+    r=0
+    cq[f]=item
+else
+    next=(r%f)+1
+    if (next != f) then
+        r=next
+        cq[r]=item
+    else
+        print('full')
+    end if
+end if
+STOP    
+
+
+dequeue code
+
+if (f=0) then
+    print ('empty')
+    exit
+else
+    item= cq[r]
+    if (f=r) then
+        f=0
+        r=0
+
+    else
+        f=(f%r)+1
+    end if
+end if
+STOP
