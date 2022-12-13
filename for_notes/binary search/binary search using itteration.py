@@ -16,6 +16,7 @@ def binarysearch(arr, f, l, n):
 
 
 arr = [1, 2, 6, 7, 8, 9]
+# n = number we are searching
 n = 6
 f = 0
 l = len(arr)-1
