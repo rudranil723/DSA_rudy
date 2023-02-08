@@ -5,11 +5,7 @@ void main() {
     int item = 5, n = 5;
     int i = 0, j = 0;
 
-    printf("The original array elements are :\n");
 
-    for (i = 0; i < n; i++) {
-        printf("LA[%d] = %d \n", i, LA[i]);
-    }
 
     while (j < n) {
         if (LA[j] == item) {
